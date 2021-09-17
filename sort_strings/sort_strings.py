@@ -12,3 +12,8 @@ def sort_strings(strings: [str]) -> [str]:
             if strings[j] > strings[j + 1]:
                 strings[j], strings[j + 1] = strings[j + 1], strings[j]
     return strings
+
+
+if __name__ == '__main__':
+    unsorted_list = ['A', 'random', 'string', 'of', 'words', 'that', 'we', 'will', 'sort.']
+    print(sort_strings(unsorted_list))

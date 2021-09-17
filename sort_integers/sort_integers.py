@@ -13,3 +13,7 @@ def sort_integers(integers: [int]) -> [int]:
                 integers[j], integers[j + 1] = integers[j + 1], integers[j]
     return integers
 
+
+if __name__ == '__main__':
+    unsorted_list = [4525, 23515, 23652, 34625, 262, 235, 51346, 2352346, 647568, 5878, 587569, 54876, 374, 25468, 9876]
+    print(sort_integers(unsorted_list))
