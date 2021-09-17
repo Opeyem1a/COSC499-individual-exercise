@@ -1,4 +1,9 @@
 def sort_strings(strings: [str]) -> [str]:
+    """
+    Returns a new list that contains the elements of strings, but sorted in string ascending order
+    :param strings: a list of strings to sort
+    :return: a new list of strings, sorted in ascending order
+    """
     strings = [*strings]
     n = len(strings)
     for i in range(n - 1):  # loop through the list
