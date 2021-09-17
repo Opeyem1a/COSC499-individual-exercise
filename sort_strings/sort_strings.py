@@ -15,5 +15,5 @@ def sort_strings(strings: [str]) -> [str]:
 
 
 if __name__ == '__main__':
-    unsorted_list = ['A', 'random', 'string', 'of', 'words', 'that', 'we', 'will', 'sort.']
+    unsorted_list = ['A', 'random', 'string', 'of', 'words', 'that', 'we', 'will', 'sort.', 'Extra', 'words.']
     print(sort_strings(unsorted_list))
